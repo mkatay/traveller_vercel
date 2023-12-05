@@ -35,7 +35,7 @@ export const Tour = () => {
          <p className="tour-description">{tour[0].info}</p>
          <div className="buttons">
             <p className="tour-price">Price: ${tour[0].price}</p>
-            <p className="tour-price bg-gradient" onClick={()=>navigate('/traveller/tours')}>go back to all tours</p>
+            <p className="tour-price bg-gradient" onClick={()=>navigate('/tours')}>go back to all tours</p>
          
          </div>
          

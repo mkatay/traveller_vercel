@@ -24,7 +24,7 @@ const Card = ({ id,image,name,info,price }) => {
         <h2 className="card-title">{name}</h2>
         <p className="card-description">{truncatedInfo(info)}</p>
        {/* <button className="card-button" onClick={()=>navigate('/toursapp/tour/'+id)}>details...</button>*/}
-        <NavLink to={'/traveller/tour/'+id}><p className="tour-price bg-gradient">details</p></NavLink>
+        <NavLink to={'/tour/'+id}><p className="tour-price bg-gradient">details</p></NavLink>
       </div>
     </div>
   );

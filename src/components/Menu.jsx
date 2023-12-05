@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import {NavLink} from 'react-router-dom'
 
 const pages=[
-  {path:'/traveller',name:'Home'},
-  {path:'/traveller/about',name:'About'},
-  {path:'/traveller/tours',name:'Our Tours'},
-  {path:'/traveller/contact',name:'Contact'}
+  {path:'/',name:'Home'},
+  {path:'/about',name:'About'},
+  {path:'/tours',name:'Our Tours'},
+  {path:'/contact',name:'Contact'}
 ]
 
 export const Menu = () => {

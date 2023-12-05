@@ -11,4 +11,4 @@ Topics:
 - 404.html
 - deploying on GitHub
 
-Demo:[traveller](https://mkatay.github.io/traveller/)
+Demo:[traveller]()

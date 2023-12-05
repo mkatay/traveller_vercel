@@ -23,27 +23,27 @@ import { Contact } from "./components/Contact.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/traveller/",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: "/traveller/",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/traveller/about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/traveller/tours",
+        path: "/tours",
         element: <Tours />,
       },
       {
-        path: "/traveller/tour/:id",
+        path: "/tour/:id",
         element: <Tour />,
       },
       {
-        path: "/traveller/contact",
+        path: "/contact",
         element: <Contact />,
       },
     ],
