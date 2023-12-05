@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <div className="about-container">
       <div className="holder">
-        <h3 className="gradient-text">About Us</h3>
+        <h3 className="gradient-text"><b>About Us</b> </h3>
         <div className="about-section">
           <img src={about1} alt="about1" />
           <p>
