@@ -9,6 +9,6 @@ Topics:
 - using static images
 - using hosted images
 - 404.html
-- deploying on GitHub
+- deploying on Vercel
 
-Demo:[traveller]()
+Demo:[traveller](https://traveller-vercel-o60mge3gi-mkatay.vercel.app/)
